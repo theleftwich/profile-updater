@@ -1,0 +1,4 @@
+﻿SET !EXTRACT_TEST_POPUP NO
+'URL GOTO=https://caen-cms.engin.umich.edu/college/about/people/backup-temp/a-to-e
+'URL GOTO=https://caen-cms.engin.umich.edu/college/about/people/backup-temp/p-to-t
+TAG POS={{i}} TYPE=A ATTR=TXT:View<SP>profile EXTRACT=HREF
