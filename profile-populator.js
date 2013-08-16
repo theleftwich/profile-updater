@@ -155,7 +155,7 @@ var directoryPageArray = ['https://caen-cms-dev.engin.umich.edu/training/leftwic
 // create a variable to hold each profile type HTML as an object in an array. Order is important!
 var directoryContentArray = [alumniPageHTML,facultyPageHTML,staffPageHTML,studentPageHTML,allPageHTML]; 						 
 
-alert(facultyPageHTML); //testing
+
 // loop through directory pages and populate them
 
 for (k=0; k<6; k++){
