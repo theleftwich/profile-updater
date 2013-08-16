@@ -57,7 +57,7 @@ for (j=0; j<5; j++){ // outer loop, loops through all 5 contact buckets. j<1 to 
 		iimSet('i',i);
 		  iimPlay('profile-updater/get-snippet.iim');
 		  var snippet = iimGetLastExtract(); // Get and store html snippet
-		  var snippet = snippet.replace('https://caen-cms.engin.umich.edu/', ''); // truncates CMS urls to relative
+		  var snippet = snippet.replace('https://caen-cms.engin.umich.edu/', '/'); // truncates CMS urls to relative
 		
 
 			
