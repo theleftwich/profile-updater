@@ -77,7 +77,7 @@ for (j=0; j<5; j++){ // outer loop, loops through all 5 contact buckets. j<1 to 
 			   iimSet('url', url); 
 
 			   // Runs macro to navigate to profile page and extract some HTML
-			   iimPlay('get-profile-type.iim'); 
+			   iimPlay('profile-updater/get-profile-type.iim'); 
 				   
 			   // get profile header from macro, which includes profile type in text   
 			   var profileHeader = iimGetLastExtract();
